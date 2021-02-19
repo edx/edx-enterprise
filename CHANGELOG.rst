@@ -17,6 +17,11 @@ Unreleased
 ----------
 * Nothing.
 
+[3.20.2]
+---------
+
+* Switched from jsonfield2 to jsonfield as the earlier one has archived and merged back in the latter one.
+
 [3.20.1]
 --------
 * update edx-rbac to 1.4.2, plus a bunch of other version bumps.

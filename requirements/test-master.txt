@@ -124,7 +124,7 @@ django==2.2.19
     #   edx-drf-extensions
     #   edx-opaque-keys
     #   edx-rbac
-    #   jsonfield2
+    #   jsonfield
     #   rest-condition
 djangorestframework-xml==2.0.0
     # via -r requirements/base.in
@@ -180,11 +180,8 @@ jinja2==2.11.3
     #   code-annotations
 jsondiff==1.2.0
     # via -r requirements/base.in
-jsonfield2==3.0.3
-    # via
-    #   -c requirements/constraints.txt
-    #   -c requirements/edx-platform-constraints.txt
-    #   -r requirements/base.in
+jsonfield==3.1.0
+    # via -r requirements/base.in
 kombu==5.0.2
     # via celery
 markupsafe==1.1.1

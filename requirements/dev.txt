@@ -220,7 +220,7 @@ django==2.2.19
     #   edx-lint
     #   edx-opaque-keys
     #   edx-rbac
-    #   jsonfield2
+    #   jsonfield
     #   rest-condition
 djangorestframework-xml==2.0.0
     # via
@@ -359,9 +359,8 @@ jsondiff==1.2.0
     #   -r requirements/doc.txt
     #   -r requirements/test-master.txt
     #   -r requirements/test.txt
-jsonfield2==3.0.3
+jsonfield==3.1.0
     # via
-    #   -c requirements/constraints.txt
     #   -r requirements/doc.txt
     #   -r requirements/test-master.txt
     #   -r requirements/test.txt
